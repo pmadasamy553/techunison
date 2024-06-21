@@ -1,0 +1,13 @@
+  const botResponses = {
+      hello: 'Hi there! How can I help you?',
+      services: 'We offer a variety of IT services including web development, app development, cloud computing, cybersecurity, and IT consulting.',
+      contact: 'You can contact us at contact@itcompany.com or call us at (123) 456-7890.',
+      hours: 'Our office hours are Monday to Friday, 9 AM to 6 PM.',
+      location: 'We are located at 123 Tech Avenue, Silicon Valley, CA.',
+      'about us': 'We are a leading IT company specializing in innovative technology solutions to help businesses grow.',
+      'web development': 'Our web development services include building responsive and scalable websites using the latest technologies.',
+      'app development': 'We develop mobile applications for both Android and iOS platforms.',
+      'cloud computing': 'Our cloud computing services help you migrate, manage, and optimize your cloud infrastructure.',
+      'cybersecurity': 'We provide comprehensive cybersecurity services to protect your business from cyber threats.',
+      'it consulting': 'Our IT consulting services help you strategize and implement the best IT solutions for your business needs.'
+    };

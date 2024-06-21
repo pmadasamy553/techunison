@@ -1,0 +1,214 @@
+body{font-family: 'Poppins', sans-serif;  font-weight:300;}
+
+
+.h1, h1 {font-size:4vw;line-height: 4vw;}
+.h3, h3 {    font-size: 2vw;}
+.h2, h2 {    font-size: 2.2vw;}
+
+
+li{font-size:15px; line-height:35px;}
+
+p {font-weight: 300;margin: 15px 0;font-size: 15px;line-height: 25px;text-align: justify;}
+h3{ margin:0px;}
+.footoff{ margin-bottom:25px}
+.mahathma{ background:none; border:none;}
+.mahathma img{width:75px; margin:9px 0 0 0}
+.mahathma:focus{ background:none; border:none;}
+
+.mahaqout{background:#000; text-align:center; padding:4vw 0}
+.mahaqout h3{ color:#fff;line-height:35px;}
+.mahaqout p{ color:yellow;text-align:center;}
+
+.slider2 {  background-image: url("../img/serbg.jpg");  min-height: 100%;}
+.slider3 {  background-image: url("../img/section3.jpg");  min-height: 100%;}
+.slider4 {  background-image: url("../img/fourth-slider.png");  min-height: 100%;}
+.slider5 {  background-image: url(../img/section5.jpg); min-height: 100%;  background-repeat: no-repeat; background-size: cover;}
+.slider6 {  background-image: url("../img/slider5.png");  min-height: 100%; padding:8vw 0}
+.slider9 {  background-image: url("../img/serbg.jpg");  min-height: 100%;}
+
+.caption {  position: absolute;  left: 0;  top: 50%;  width: 100%;  text-align: center;  color: #000;}
+.caption span.border {  background-color: #111;  color: #fff;  padding: 18px;  font-size: 25px;  letter-spacing: 10px;}
+img{max-width:100%}
+.slider2,.slider3,.slider4,.slider5,.slider6, .slider9{ color:#fff; padding:10vw 0; background-position:right;}
+.footer{ background:#000; text-align:center; padding:2.5vw 0}
+.footer span{ color:#666}
+
+
+
+.slider6 ul li a{ font-size:13px;}
+.slider6 p{ font-size:13px;}
+
+#navbar{    position: fixed;    width: 100%; z-index:999;    background: none;}
+.navbar-default{ border:none; background:none}
+.navbar-default .navbar-nav>li>a{ color:#fff; font-family: 'Poppins', sans-serif; }
+
+.tossing{	animation-name: tossing;	-webkit-animation-name: tossing;		animation-duration: 2.5s;		-webkit-animation-duration: 2.5s;	animation-iteration-count: infinite;	-webkit-animation-iteration-count: infinite;}
+
+@keyframes tossing {	0% {		transform: rotate(-4deg);		}	50% {		transform: rotate(4deg);	}	100% {	transform: rotate(-4deg);		}						}@-webkit-keyframes tossing {	0% {		-webkit-transform: rotate(-4deg);		}	50% {		-webkit-transform: rotate(4deg);	}	100% {		-webkit-transform: rotate(-4deg);		}				}
+.tec1,.tec2,.tec3,.tec4,.tec5,.tec6,.tec7 {position: absolute; top:10vw}
+
+.tec1 { margin:5vw 5vw 0; }
+.tec2 { margin:0px 10vw 0;}
+.tec3 { margin:0px 15vw 0}
+.tec4 { margin:0px 20vw 0}
+.tec5 { margin:15vw 5vw 0}
+.tec6 { margin:10vw 10vw 0}
+.tec7 { margin:12vw 15vw 0}
+.tec8 { margin:15vw 0 0}
+
+.menuli { margin:15px 0 0 17px}
+.menuli li{ list-style:circle}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {    line-height: 25px;    overflow: auto; padding:0 20px;   height: 35vh;}
+
+
+
+
+.slider6 ul li{ line-height:20px; padding:0 0 21px 0}
+.slider6 ul {
+    padding: 5px 0 0 0;
+}
+
+.navbar-default .navbar-nav>li>a{padding:25px 10px;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{ color:#fff; }
+.meta {margin: 0 0 40px 0;font-size: 0.8em;}
+.properties-table {width: 100%;padding: 0;border-spacing: 0;margin-top: 2em;font-size: .85em;background-color: #eee;}
+.properties-table th, .properties-table td {text-align: left;padding: 10px;}
+.properties-table th {border-bottom: 1px solid #333;line-height: 2;}/* EndBasicstyling */
+#demo-1 {position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to"relative" by script */overflow: hidden; /* to bound the empty top space created by inner element's top margin */width: 100%;min-height: 400px;background-color: #999;}
+.demo-inner-content {position: relative; /* if position is not set, the script will set it to 'relative'. */z-index: 2; /* if z-indexis not set, the script will set it to '2'. */margin: 180px auto;padding: 6vw;max-width: 100%;color: #fff;text-align: center;font-size: 1.5em;}
+.demo-inner-content h1 {font-size:3vw;margin: 0;}
+.banner_animate h3{font-size:4.5vw;margin: 15px 0; }
+.banner_animate h3 span{ border:3px solid #333; padding:1.5vw 1.5vw; border-radius:100px; display:inline-block; background:rgba(0, 0, 0, 0.5); color:#fff; text-shadow:none; color:orange} 
+.menuright{ float:right}ul{ padding:0 0 0 0}
+ul li{ list-style:none}ul li a{ color:#fff}
+.navbar-brand img{width:95px}
+.navbar-default .navbar-nav>li>a {    color: #000;    padding:17px 20px; line-height:55px;}
+nav.anchorlink-nav {    position: fixed;    right: 0;    top: 50%;   width: 60px;    text-align: center;    display: block;    z-index: 999;}
+nav.anchorlink-nav li{ line-height:25px;}
+#slider1 {   padding:0px;}  
+.demo-inner-content{ font-family: 'Poppins', sans-serif; font-weight:800;font-size:2.5vw; text-align:center; }  
+.fa_icon li i{ width:25px; font-size:15px; text-align:center}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{ line-height:20px; font-size:13px;}
+.career{ margin:15px 0 0 0;}
+.career li span{   padding: 5px 10px;    border-radius: 20px;   width: auto;    text-align: center;    }
+.careersec{ border:2px solid #f1f1f1; width:80%; margin:0 auto;padding: 1em;}
+.dropdown p{font-size:13px; line-height:20px;}
+.dropdown li{font-size:13px; line-height:20px;}
+.fa_icon li{line-height: 20px;   padding: 0 0 20px 25px;}
+.fa_icon li i{ position:absolute; margin:5px 0 0 -30px}
+.fa-angle-right{ background:#fff; color:#000; width:18px; height:18px; font-weight:bold; border-radius:50px; text-align:center; margin:0 15px 0 0}
+.s_media li{ float:left; line-height: 34px!important;}
+.s_media li a{ display:inline-block; background:#ea0707; width:35px; height:35px; margin:0 1px 0 0; text-align:center}
+.s_media li a:hover{ background:#ddd}
+.slider6 h5{ font-weight:600; font-size:15px; text-transform:uppercase; color:#3cbddd}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{ line-height:25px;}
+.menu_right{ float:right;}
+.yamm{ position:fixed; z-index:999; width:100%; background: rgba(255, 255, 255, 0.8)}
+.panel-default>.panel-heading{ background:#f1f1f1; color:#000; border:none;}
+.navbar-nav>li>.dropdown-menu{ left:0; width:100%; background:#fff}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{ background:none; color:#1eb5f7}
+.clientbox{background:#fff; padding:15px; margin-bottom:15px;}
+.demo-inner-content span{ font-size:5vw}
+
+.demo-inner-content {    margin: 0;    height:75vh;    position: relative;    margin: 0;    padding: 0;}
+.demo-inner-content h2{ position:absolute; top:50%; width:100%}
+
+
+.panel-title a:hover{ color:#000; text-decoration:none;}
+
+.vms{ border:1px solid #ccc; padding:5px; text-align:center; min-height:350px;}
+.vms h3{ margin:25px 0}
+.vms p{ text-align:center}
+.contact-section .form-control{ padding:20px 15px; }
+.submit{ background:#000; padding:10px 15px; color:#fff}
+
+a:hover{ text-decoration:none; color:#0099CC}
+.consecpage{ padding:5vw 0}
+.cont_nu{ padding:35px 15px}
+.cont_nu h3{ padding:0 0 10px 0; color:#FF3300;}
+.cont_nu p{ padding:0 0 15px 0; margin:0}
+.cont_nu i{ background:#FF3300; width:25px; height:25px; border-radius:50px; color:#fff; text-align:center; font-size:15px; padding-top:5px;}
+.carousel-caption {    right:0;    left:0;    padding-bottom: 30px;    top:18vw;}
+.carousel-control i {    margin: 25vw 0 0 0;    font-size: 2vw;    position: absolute;    top: 5vh;}
+
+.navbar-brand {float: left;height: auto;padding: 10px 0;font-size: 18px;line-height: 20px;}
+
+
+/************     BANNER ZOOM   ********/
+
+
+@-webkit-keyframes zoom {
+from {
+-webkit-transform: scale(1, 1);
+}
+to {
+-webkit-transform: scale(1.5, 1.5);
+}
+}
+
+@keyframes zoom {
+from {
+transform: scale(1, 1);
+}
+to {
+transform: scale(1.5, 1.5);
+}
+}
+
+.carousel-inner .item > img {  -webkit-animation: zoom 20s;  animation: zoom 20s;}
+.content{ position: absolute!important; z-index:9999;}
+.carousel-caption h1 span {font-size:4vw}
+.banner_animate h3 {	color: #fff;    margin: 0;    transform-origin: 50% 100%;	animation-duration: 3s;    animation-name: fade;  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);	font-size:2vw}
+.banner_animate a {    font-family: Cambria, Cochin, serif;    font-size: 16px;    color: #333;    padding: 5px;    border-radius: 5px;    background-color:#A6D2FF;    transition: background-color .2s ease-out;}
+.banner_animate a:hover {    background-color: #EEE;}
+@keyframes fade {
+from {
+opacity: 0;
+transform: scale(.9, .9);
+}
+to {
+opacity: 1;
+transform: scale(1, 1);
+}
+}
+
+
+
+.slider6 { padding:4vw 0}
+
+/*********************** MOBILIE VIEW ******************************/
+
+
+
+@media (max-width:800px) {
+img{max-width:100%;}	
+.menu_right {float: left;}
+.navbar-default .navbar-nav>li>a {    color: #fff;    padding: 10px 15px;}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header { border: none; box-shadow: none;}
+.navbar-toggle{    background: #fff;    margin: 20px 10px 0 0;}
+.yamm .yamm-content {    padding: 0 8px;}
+
+.tec1,.tec2,.tec3,.tec4,.tec5,.tec6,.tec7 {position: absolute; top:10vw; left:0}
+.tec1 { margin:5vw 1vw 0; }
+.tec2 { margin:0px 00vw 0;}
+.tec3 { margin:5vw 5vw 0}
+.tec4 { margin:2vw 15vw 0}
+.tec5 { margin:15vw 15vw 0}
+.tec6 { margin:10vw 15vw 0}
+.tec7 { margin:12vw 15vw 0}
+.tec8 { margin:15vw 15vw 0}
+
+.h3, h3 {    font-size:5vw;}
+.h2, h2 {    font-size:5vw;}
+.navbar-brand img {    width: 65px;    margin: 0 10px;}
+p { font-weight: 300;    margin: 15px 0;    font-size: 13px;    line-height:20px;    text-align: justify;}
+.navbar-default .navbar-nav>li>a {    color: #000;    padding: 0 10px;    line-height: 9vw;}
+
+.slider6 ul li { line-height: 20px;    padding: 0 0 7px 0;    font-size: 12px;}
+.slider6 ul {  padding: 0 0 20px 0;}
+.yamm {    position: fixed;    z-index: 999;    width: 100%;    background: rgba(255, 255, 255, 1);}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {    line-height: 25px;    overflow: visible; padding:0 20px;   height:auto;}
+
+}
+
+
